@@ -2,7 +2,7 @@ all: push
 
 # 0.0 shouldn't clobber any released builds
 TAG = 0.0
-PREFIX = gcr.io/google_containers/servicelb
+PREFIX = dyep49/kube-service-lb
 HAPROXY_IMAGE = contrib-haproxy
 
 server: service_loadbalancer.go
